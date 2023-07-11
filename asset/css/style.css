@@ -1,0 +1,29 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration:none!important;
+}
+.topbar-menu{
+    font-size: small;
+    font-weight: bold;
+}
+.navbar{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.primary-color{
+    background-color: #d6d6d68c;
+}

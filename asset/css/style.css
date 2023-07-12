@@ -291,7 +291,9 @@ footer{
 }
 
 /* Mobile styles */
-
+.testimonial-image-mobile{
+    display: none;
+}
 @media (max-width: 767px) {
   #student-login,
   #staff-login,
@@ -304,7 +306,4 @@ footer{
     .testimonial-image-mobile{
         display: block;
     }
-}
-.testimonial-image-mobile{
-    display: none;
 }

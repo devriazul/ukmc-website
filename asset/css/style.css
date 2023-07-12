@@ -19,6 +19,12 @@ a{
 .hero-title{
     font-size: 48px;
 }
+.hero-text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+}
 .hero-card{
     background-color: rgba(0, 0, 0, 0.434);
 }

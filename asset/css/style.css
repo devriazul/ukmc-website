@@ -294,7 +294,17 @@ footer{
 
 @media (max-width: 767px) {
   #student-login,
-  #staff-login {
+  #staff-login,
+  .topbar-menu {
     display: none; /* Hide the buttons on mobile */
   }
+  .testimonial-image{
+    display: none;
+  }
+    .testimonial-image-mobile{
+        display: block;
+    }
+}
+.testimonial-image-mobile{
+    display: none;
 }

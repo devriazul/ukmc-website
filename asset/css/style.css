@@ -237,6 +237,12 @@ a{
 footer{
     background-color: #091154;
 }
+.footer-heading{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
 .footer-text{
     font-size: 14px;
     font-style: normal;
@@ -250,9 +256,7 @@ footer{
     border-radius: 4px;
     border: 1px solid #DEDFE1;
     background: var(--gray-700, #344054);
-
-/* Shadow/xs */
-box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
 .footer-button{
     border-radius: 4px;

@@ -19,6 +19,9 @@ a{
 .hero-title{
     font-size: 48px;
 }
+.hero-card{
+    background-color: rgba(0, 0, 0, 0.434);
+}
 .sticky-top {
     position: sticky;
     top: 0;

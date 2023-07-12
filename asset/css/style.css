@@ -283,3 +283,18 @@ footer{
     bottom: 0;
     z-index: 1;
 }
+/* Default styles */
+
+#student-login,
+#staff-login {
+  display: inline; /* Ensure the buttons are displayed inline */
+}
+
+/* Mobile styles */
+
+@media (max-width: 767px) {
+  #student-login,
+  #staff-login {
+    display: none; /* Hide the buttons on mobile */
+  }
+}

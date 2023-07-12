@@ -7,16 +7,18 @@ a{
     text-decoration:none!important;
 }
 .topbar-menu{
-    font-size: small;
-    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar{
     font-family: 'Merriweather', serif;
-    font-size: large;
+    font-size: 16px;
     padding-top: 0!important;
     padding-bottom: 0!important;
 }
-
+.hero-title{
+    font-size: 48px;
+}
 .sticky-top {
     position: sticky;
     top: 0;

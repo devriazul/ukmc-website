@@ -345,10 +345,10 @@
             <img src="asset/news-img_01.png" class="card-img-top" alt="News 1">
             <div class="card-body">
               <div class="row py-2">
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                   <h6 class="card-title news-card-title">Research</h6>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 col-12 text-right">
                   <p class="card-text news-card-date">11-July-2023</p>
                 </div>
               </div>
@@ -362,10 +362,10 @@
             <img src="asset/news-img_02.png" class="card-img-top" alt="News 2">
             <div class="card-body">
               <div class="row py-2">
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                   <h6 class="card-title news-card-title">Campus</h6>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 col-12 text-right">
                   <p class="card-text news-card-date">11-July-2023</p>
                 </div>
               </div>
@@ -379,10 +379,10 @@
             <img src="asset/news-img_03.png" class="card-img-top" alt="News 3">
             <div class="card-body">
               <div class="row py-2">
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                   <h6 class="card-title news-card-title">AAT</h6>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 col-12 text-right">
                   <p class="card-text news-card-date">11-July-2023</p>
                 </div>
               </div>
@@ -396,10 +396,10 @@
             <img src="asset/news-img_04.png" class="card-img-top" alt="News 4">
             <div class="card-body">
               <div class="row py-2">
-                <div class="col-md-6">
+                <div class="col-md-6 col-12">
                   <h6 class="card-title news-card-title">Career</h6>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 col-12 text-right">
                   <p class="card-text news-card-date">11-July-2023</p>
                 </div>
               </div>
@@ -477,53 +477,59 @@
 
     <!-- == Footer Section Start ==  -->
 
-  <footer class="bg-dark">
+  <footer class="footer-text">
     <div class="container text-white">
       <div class="row pb-5 pt-5">
         <div class="col-md-3">
           <img src="asset/ukmc-logo-white.png" alt="" srcset="">
-          <p>Address Line 1<br>Address Line 2<br>City, State ZIP</p>
-          <p>Phone: +1234567890<br>Email: info@example.com</p>
+          <p class="pt-3 pe-3">College House, Stanley St/Catherine St, Openshaw, Manchester, M11 1LE, United Kingdom.</p>
+          <p>
+            <img class="pe-2" src="asset/footer-phone.png" alt="">+4401614780015<br>
+            <img class="pe-2" src="asset/footer-phone.png" alt="">+447940524435<br>
+            <img class="pe-3" src="asset/footer-mail.png" alt="">info@example.com
+          </p>
           <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a class="pe-2" href="#"><img src="asset/twitter.png" alt=""></a>
+            <a class="pe-2" href="#"><img src="asset/Facebook.png" alt=""></a>
+            <a class="pe-2" href="#"><img src="asset/youtube.png" alt=""></a>
+            <a class="pe-2" href="#"><img src="asset/linkedin.png" alt=""></a>
+            <a class="pe-2" href="#"><img src="asset/instagram.png" alt=""></a>
           </div>
         </div>
         <div class="col-md-3">
           <h4>Quick Links</h4>
-          <ul class="list-unstyled">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Student Life</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Full A-Z</a></li>
+          <ul class="list-unstyled pt-3">
+            <li class="pb-2"><a href="" class="text-white">- Home</a></li>
+            <li class="pb-2"><a href="" class="text-white">- Courses</a></li>
+            <li class="pb-2"><a href="" class="text-white">- Student Life</a></li>
+            <li class="pb-2"><a href="" class="text-white">- About Us</a></li>
+            <li class="pb-2"><a href="" class="text-white">- Contact Us</a></li>
+            <li class="pb-2"><a href="" class="text-white">- Full A-Z</a></li>
           </ul>
         </div>
         <div class="col-md-3">
           <h4>Student and Staff</h4>
           <ul class="list-unstyled">
-            <li><a href="#">Student Login</a></li>
-            <li><a href="#">Staff Login</a></li>
-            <li><a href="#">Help & Support</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- Student Login</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- Staff Login</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- Help & Support</a></li>
           </ul>
           <h4>Newsletter</h4>
           <form>
             <div class="form-group pb-2">
-              <input type="email" class="form-control" placeholder="Enter your email">
+              <input type="email" class="form-control footer-mailbox" placeholder="Enter your email">
             </div>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <button type="submit" class="footer-button text-white px-3 py-2">Subscribe</button>
           </form>
         </div>
         <div class="col-md-3">
           <h4>Privacy & Policy</h4>
           <ul class="list-unstyled">
-            <li><a href="#">About this website</a></li>
-            <li><a href="#">Accessibility statement</a></li>
-            <li><a href="#">Privacy policy and cookies</a></li>
-            <li><a href="#">GDPR Policy</a></li>
-            <li><a href="#">Feedback</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- About this website</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- Accessibility statement</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- Privacy policy and cookies</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- GDPR Policy</a></li>
+            <li class="pb-2"><a class="text-white" href="#">- Feedback</a></li>
           </ul>
         </div>
       </div>

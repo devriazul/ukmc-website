@@ -234,3 +234,31 @@ a{
     background: var(--white, #FFF);
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
+footer{
+    background-color: #091154;
+}
+.footer-text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+.social-icons{
+    color: white!important;
+}
+.footer-mailbox{
+    border-radius: 4px;
+    border: 1px solid #DEDFE1;
+    background: var(--gray-700, #344054);
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.footer-button{
+    border-radius: 4px;
+    border: 1px solid #DEDFE1;
+    background: var(--brand-blue-1-b-300, #0F1C89);
+
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
